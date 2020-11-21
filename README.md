@@ -16,10 +16,11 @@
 #### Step 1: Using Custom trained AI model to detect street banner, signboard, address plate from image
 * Using YOLO deep learning object detection architecture
 * Training custom model on the pre-trained YOLO model
-   ** Collecting image data which contains street banners, signboards, address plates
-   ** Labelling images and drawing bounding boxes using the LabelImg tool
-   ** Training the model on the train set
-   ** Applied the trained to new dataset
+   
+   Collecting image data which contains street banners, signboards, address plates
+   Labelling images and drawing bounding boxes using the LabelImg tool
+   Training the model on the train set
+   Applied the trained to new dataset
    
 ![file3_bcc](https://user-images.githubusercontent.com/69978820/99877041-a4680c00-2bfb-11eb-9500-ce8ac3ab13b8.png)
 
@@ -40,6 +41,6 @@
 
 #### Step 3: Comparing the two cropped images to see the similarity and conclude
 * Metrics:
-  ** Mean Square Error (MSE)
-  ** Structural Similarity Index (SSIM)
+  Mean Square Error (MSE)
+  Structural Similarity Index (SSIM)
 ![file7_compare](https://user-images.githubusercontent.com/69978820/99877047-a631cf80-2bfb-11eb-9f52-cd21c6018537.png)
