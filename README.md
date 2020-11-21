@@ -6,6 +6,4 @@
 * Use ImageAI library
 * Use pretrained Yolov3 model 
 
-![Cute Pup][pup]
-
-[pup]: https://unsplash.com/photos/oNCvZT1Bqx4
+![Image1](https://user-images.githubusercontent.com/69978820/99876868-22c3ae80-2bfa-11eb-94a9-8c8adec628e5.png)
