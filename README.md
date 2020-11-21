@@ -18,8 +18,11 @@
 * Training custom model on the pre-trained YOLO model
    
    Collecting image data which contains street banners, signboards, address plates
+   
    Labelling images and drawing bounding boxes using the LabelImg tool
+   
    Training the model on the train set
+   
    Applied the trained to new dataset
    
 ![file3_bcc](https://user-images.githubusercontent.com/69978820/99877041-a4680c00-2bfb-11eb-9500-ce8ac3ab13b8.png)
@@ -34,13 +37,18 @@
 #### Step 1: Detecting face image from upload identity card
 * Detecting face using object detection technique of the developed model
 * Cropping the detected face 
+
 ![file5_cmnd](https://user-images.githubusercontent.com/69978820/99877043-a5993900-2bfb-11eb-9859-a7b1ff80ff7f.png)
 
 #### Step 2: Do the same works as in the Step 1 for for uploaded photo of customer
+
 ![file6_face](https://user-images.githubusercontent.com/69978820/99877046-a631cf80-2bfb-11eb-931c-ed24932fa6f7.png)
 
 #### Step 3: Comparing the two cropped images to see the similarity and conclude
 * Metrics:
+
   Mean Square Error (MSE)
+  
   Structural Similarity Index (SSIM)
+  
 ![file7_compare](https://user-images.githubusercontent.com/69978820/99877047-a631cf80-2bfb-11eb-9f52-cd21c6018537.png)
