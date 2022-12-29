@@ -38,11 +38,7 @@
 * Detecting face using object detection technique of the developed model
 * Cropping the detected face 
 
-![file5_cmnd](https://user-images.githubusercontent.com/69978820/99877043-a5993900-2bfb-11eb-9859-a7b1ff80ff7f.png)
-
 #### Step 2: Do the same works as in the Step 1 for for uploaded photo of customer
-
-![file6_face](https://user-images.githubusercontent.com/69978820/99877046-a631cf80-2bfb-11eb-931c-ed24932fa6f7.png)
 
 #### Step 3: Comparing the two cropped images to see the similarity and conclude
 * Metrics:
@@ -51,4 +47,3 @@
   
   Structural Similarity Index (SSIM)
   
-![file7_compare](https://user-images.githubusercontent.com/69978820/99877047-a631cf80-2bfb-11eb-9f52-cd21c6018537.png)
